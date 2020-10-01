@@ -67,17 +67,19 @@ class FibonacciHeap(Heap):
             return print('les deux arbres n\'ont pas le même nombre d\'élément')
 
 heap = FibonacciHeap()
+heap2 = FibonacciHeap()
+
+"""
 heap.insert(2)
 heap.insert(5)
 heap.insert(8)
-heap.insert(4)
+heap.insert(4) 
 print('Arbre 1 : {}\n'.format(heap.tree))
 print('Plus petite valeur de Arbre 1 : {}\n'.format(heap.find_min()))
 heap.insert(0)
 print('Arbre 1 après ajout d\'une valeur: {}\n'.format(heap.tree))
 print('Plus petite valeur de Arbre 1 après ajout d\'une valeur: {}\n'.format(heap.find_min()))
 
-heap2 = FibonacciHeap()
 heap2.insert(0)
 heap2.insert(4)
 heap2.insert(8)
@@ -90,3 +92,4 @@ print('Arbre 2 : {}\n'.format(heap2.tree))
 print('Plus petite valeur de Arbre 2 : {}\n'.format(heap2.find_min()))
 
 print('Arbres fusionnés : {}\n'.format(heap.merge(heap2)))
+"""
